@@ -23,6 +23,15 @@ fonts.forEach((item) => {
                     book.classList.remove("book_fs-big");
                 }
 
+                // вариант преподавателя
+                /*
+                const size = event.target.dataset.size;
+                if (size) {
+                        book.className = `book__content book_fs-${size}`;
+                } else {
+                        book.className = "book__content";
+                }
+                */
 
         })
 
